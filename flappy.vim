@@ -242,7 +242,7 @@ function! Flap()
     call Binds()
     nmap <silent> D :call Binds()<CR>
     nnoremap <C-n>  ggVGd:call Flap()<CR>
-    echo "Hold n to flap!"
+    echo "Hold n to flap and press shift to jump!"
 endfunction
 
 call Flap()
