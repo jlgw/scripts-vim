@@ -238,6 +238,12 @@ function! Flap()
     let s:line2 = Gen()
     let s:line3 = Gen()
     let s:line4 = Gen()
+    set nonumber
+    set norelativenumber
+    set noshowmode
+    set noruler
+    set laststatus=0
+    set noshowcmd
     call Fill()
     call Binds()
     nmap <silent> D :call Binds()<CR>
